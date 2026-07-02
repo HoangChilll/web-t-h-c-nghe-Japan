@@ -1,0 +1,25 @@
+.env
+*.log
+
+# Java
+backend/target/
+*.class
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python
+crawler/.venv/
+crawler/__pycache__/
+**/__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
